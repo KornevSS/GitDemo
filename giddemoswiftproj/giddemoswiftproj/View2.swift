@@ -16,6 +16,8 @@ class View2: UIViewController {
         super.viewDidLoad()
 
         labeLabel.text = "Превет от Никита"
+        labeLabel.text = "Превет Никите от Славы"
+        
     }
     
 
