@@ -42,9 +42,6 @@
                         <viewLayoutGuide key="safeArea" id="sQb-Of-zMs"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <connections>
-                        <outlet property="labeLabel" destination="8ch-8n-7Ax" id="9aC-dv-7Wx"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ncv-RS-7gb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
