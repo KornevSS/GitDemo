@@ -14,8 +14,8 @@ class View2: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
+        labeLabel.text = "Превет от Никита"
+        labeLabel.text = "Преветk. Никите от Славы"        
     }
     
 
