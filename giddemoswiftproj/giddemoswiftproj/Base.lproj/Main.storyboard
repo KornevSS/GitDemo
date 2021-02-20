@@ -38,16 +38,26 @@
             </objects>
             <point key="canvasLocation" x="-262" y="605"/>
         </scene>
-        <!--View Controller-->
+        <!--View1 View Controller-->
         <scene sceneID="fwX-DR-TAe">
             <objects>
-                <viewController id="rkw-uy-vZ1" sceneMemberID="viewController">
+                <viewController id="rkw-uy-vZ1" customClass="View1ViewController" customModule="giddemoswiftproj" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wmu-3b-9mr" customClass="view1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z2Q-Ml-MNb">
+                                <rect key="frame" x="115" y="145" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Tqq-fV-uFg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="button1" destination="z2Q-Ml-MNb" id="MyJ-XW-xdx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CkN-lM-xft" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
