@@ -9,13 +9,13 @@ import UIKit
 
 class View2: UIViewController {
 
-    @IBOutlet var labeLabel: UILabel!
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        labeLabel.text = "Превет от Никита"
+        
     }
     
 
