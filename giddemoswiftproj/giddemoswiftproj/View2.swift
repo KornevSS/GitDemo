@@ -10,6 +10,7 @@ import UIKit
 class View2: UIViewController {
 
     
+    @IBOutlet var labeLabel: UILabel!
     
     
     override func viewDidLoad() {
